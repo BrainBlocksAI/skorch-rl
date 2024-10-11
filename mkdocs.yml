@@ -1,10 +1,10 @@
-site_name: "brainblocks"
-site_description: "AI composability. Modular solutions from supervised learning to deep, reinforcement, and neurosymbolic AI, supporting a wide range of applications."
-site_url: "https://brainblocks.github.io/brainblocks"
-repo_url: "https://github.com/brainblocks/brainblocks"
-repo_name: "brainblocks/brainblocks"
+site_name: "skorch-rl"
+site_description: "A library designed to extend skorch for Reinforcement Learning problems, maintaining the simplicity of scikit-learn's API. It integrates torchrl, and leverages textgrad, DSPy, and DocArray for enhanced functionality​."
+site_url: "https://BrainBlocksAI.github.io/skorch-rl"
+repo_url: "https://github.com/BrainBlocksAI/skorch-rl"
+repo_name: "BrainBlocksAI/skorch-rl"
 site_dir: "site"
-watch: [README.md, CONTRIBUTING.md, CHANGELOG.md, src/brainblocks]
+watch: [README.md, CONTRIBUTING.md, CHANGELOG.md, src/srl]
 
 theme:
   name: material

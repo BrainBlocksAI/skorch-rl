@@ -1,4 +1,4 @@
-"""Tests suite for `brainblocks`."""
+"""Tests suite for `srl`."""
 
 from pathlib import Path
 

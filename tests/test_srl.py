@@ -1,6 +1,6 @@
-"""Test the brainblocks module."""
+"""Test the srl module."""
 
-import brainblocks
+import srl
 
 
 def test_function():

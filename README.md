@@ -8,19 +8,19 @@
 [mypy]: <http://mypy-lang.org>
 [mkdocs badge]: <https://img.shields.io/badge/docs-mkdocs%20material-blue.svg?style=flat>
 [mkdocs]: <https://squidfunk.github.io/mkdocs-material>
-[version badge]: <https://img.shields.io/pypi/v/brainblocks.svg>
-[pythonversion badge]: <https://img.shields.io/pypi/pyversions/brainblocks.svg>
-[downloads badge]: <https://img.shields.io/pypi/dd/brainblocks>
-[gitter]: <https://gitter.im/brainblocks/community>
+[version badge]: <https://img.shields.io/pypi/v/skorch-rl.svg>
+[pythonversion badge]: <https://img.shields.io/pypi/pyversions/skorch-rl.svg>
+[downloads badge]: <https://img.shields.io/pypi/dd/skorch-rl>
+[gitter]: <https://gitter.im/skorch-rl/community>
 [gitter badge]: <https://badges.gitter.im/join%20chat.svg>
-[discussions]: <https://github.com/brainblocks/brainblocks/discussions>
-[discussions badge]: <https://img.shields.io/github/discussions/brainblocks/brainblocks>
-[ci]: <https://github.com/brainblocks/brainblocks/actions?query=workflow>
-[ci badge]: <https://github.com/brainblocks/brainblocks/actions/workflows/ci.yml/badge.svg?branch=main>
-[doc]: <https://github.com/brainblocks/brainblocks/actions?query=workflow>
-[doc badge]: <https://github.com/brainblocks/brainblocks/actions/workflows/doc.yml/badge.svg?branch=main>
+[discussions]: <https://github.com/BrainBlocksAI/skorch-rl/discussions>
+[discussions badge]: <https://img.shields.io/github/discussions/BrainBlocksAI/skorch-rl>
+[ci]: <https://github.com/BrainBlocksAI/skorch-rl/actions?query=workflow>
+[ci badge]: <https://github.com/BrainBlocksAI/skorch-rl/actions/workflows/ci.yml/badge.svg?branch=main>
+[doc]: <https://github.com/BrainBlocksAI/skorch-rl/actions?query=workflow>
+[doc badge]: <https://github.com/BrainBlocksAI/skorch-rl/actions/workflows/doc.yml/badge.svg?branch=main>
 
-# brainblocks
+# skorch-rl
 
 [![ci][ci badge]][ci] [![doc][doc badge]][doc]
 
@@ -33,22 +33,22 @@
 
 ## Introduction
 
-AI composability. Modular solutions from supervised learning to deep, reinforcement, and neurosymbolic AI, supporting a wide range of applications.
+A library designed to extend [skorch](https://skorch.readthedocs.io/) for Reinforcement Learning problems, maintaining the simplicity of [scikit-learn's](https://scikit-learn.org/) API. It integrates [torchrl](https://pytorch.org/rl/stable/index.html), and leverages [textgrad](https://github.com/huggingface/textgrad), [DSPy](https://dspy-docs.vercel.app/), and [DocArray](https://docs.docarray.org/) for enhanced functionality​.
 
 ## Installation
 
-For user installation, `brainblocks` is currently available on the PyPi's repository, and you can
+For user installation, `skorch-rl` is currently available on the PyPi's repository, and you can
 install it via `pip`:
 
 ```bash
-pip install brainblocks
+pip install skorch-rl
 ```
 
 Development installation requires to clone the repository and then use [PDM](https://github.com/pdm-project/pdm) to install the
 project as well as the main and development dependencies:
 
 ```bash
-git clone https://github.com/brainblocks/brainblocks.git
-cd brainblocks
+git clone https://github.com/BrainBlocksAI/skorch-rl.git
+cd skorch-rl
 pdm install
 ```
