@@ -1,4 +1,6 @@
-"""A library designed to extend skorch for Reinforcement Learning problems, maintaining the simplicity of scikit-learn's API. It integrates torchrl, and leverages textgrad, DSPy, and DocArray for enhanced functionality​."""
+"""A Reinforcement Learning library, that implements a variety of
+algorithms.
+"""
 
 from __future__ import annotations
 

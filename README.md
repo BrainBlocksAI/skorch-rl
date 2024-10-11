@@ -33,7 +33,12 @@
 
 ## Introduction
 
-A library designed to extend [skorch](https://skorch.readthedocs.io/) for Reinforcement Learning problems, maintaining the simplicity of [scikit-learn's](https://scikit-learn.org/) API. It integrates [torchrl](https://pytorch.org/rl/stable/index.html), and leverages [textgrad](https://github.com/huggingface/textgrad), [DSPy](https://dspy-docs.vercel.app/), and [DocArray](https://docs.docarray.org/) for enhanced functionality​.
+A Reinforcement Learning library that implements a range of classical RL, deep RL, and LLM-based RL algorithms. 
+
+It is designed to extend [skorch](https://skorch.readthedocs.io/) while maintaining the simplicity of
+[scikit-learn's](https://scikit-learn.org/) API. The library wraps [torchrl](https://pytorch.org/rl/) and leverages
+[textgrad](https://github.com/huggingface/textgrad), [DSPy](https://github.com/darkprinx/dspy), and
+[DocArray](https://github.com/docarray/docarray) for enhanced functionality.
 
 ## Installation
 

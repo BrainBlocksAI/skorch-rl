@@ -4,11 +4,11 @@ build-backend = "pdm.pep517.api"
 
 [project]
 name = "skorch-rl"
-description = "A library designed to extend skorch for Reinforcement Learning problems, maintaining the simplicity of scikit-learn's API. It integrates torchrl, and leverages textgrad, DSPy, and DocArray for enhanced functionality​."
+description = "A Reinforcement Learning library that implements a variety of classical RL, deep RL, and LLM-based RL algorithms."
 authors = [{name = "Georgios Douzas", email = "gdouzas@icloud.com"}]
 license = "MIT"
 readme = "README.md"
-requires-python = ">=3.9, <3.13"
+requires-python = ">=3.10, <3.13"
 keywords = []
 dynamic = ["version"]
 classifiers = [
@@ -17,7 +17,6 @@ classifiers = [
     "Programming Language :: Python",
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
-    "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
     "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: 3.12",
@@ -111,7 +110,7 @@ skip-string-normalization = true
 extend-exclude = ["docs/generated"]
 force-exclude = true
 line-length = 120
-target-version = "py39"
+target-version = "py310"
 
 [tool.ruff.lint]
 ignore = ["D202", "N806", "N803", "S101", "INP001", "Q000", "TRY002", "PLR0913", "EXE001", "EXE002", "E741"]
