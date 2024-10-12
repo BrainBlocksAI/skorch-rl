@@ -10,7 +10,6 @@ copyright_license: MIT License
 project_description: A Reinforcement Learning library that implements a variety of classical RL, deep RL, and LLM-based RL algorithms.
 python_package_distribution_name: skorch-rl
 python_package_import_name: srl
-python_versions: '>=3.10, <3.13'
+python_versions: '>=3.11, <3.13'
 repository_name: skorch-rl
 repository_namespace: BrainBlocksAI
-
